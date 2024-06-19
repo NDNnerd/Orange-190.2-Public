@@ -1,2 +1,4 @@
-# Orange-190.2-Public
-Code Review of Orange County Report on 190.2 Disparity in Orange County
+# Orange 190.2 Public
+Build and run docker image
+docker build -t orange .
+docker run -p 8080:8080 orange
